@@ -1,0 +1,164 @@
+/*header-content*/
+header {
+    display: flex;
+    font-family: sans-serif;
+}
+
+#title {
+    width: 65%;
+    text-align: center;
+}
+
+#userInput {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headline {
+    width: 50%;
+    height: 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#headerButton {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    background-color: hsla(0, 0%, 50%, 0.5);
+    cursor: pointer;
+}
+
+#headerButton:hover {
+    background-color: hsla(0, 0%, 50%, 0);
+}
+
+/*main-content*/
+main {
+    display: flex;
+}
+
+#content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul, li {
+    width: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: 1rem 0;
+}
+
+#notes {
+    width: 80%;
+    height: 1.5rem;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+#addButton{
+    width: 2rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-left: 0.5rem
+}
+
+#addButton:hover{
+    background-color: hsl(120, 100%, 25%, 0.5);
+}
+
+/*side-content*/
+
+#side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 35%;
+}
+
+#saveButton {
+    width: 4rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: hsl(120, 100%, 25%, 0.8);
+    color: white;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+
+#clearButton {
+    width: 4rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: hsl(0, 100%, 50%, 0.7);
+    color: white;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+
+#saveButton:hover {
+    background-color: hsl(120, 100%, 25%, 1);
+}
+
+#clearButton:hover {
+    background-color: hsl(0, 100%, 40%, 1);
+}
+
+#loadButton {
+    width: 4rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: hsl(39, 100%, 50%, 0.5);
+    color: white;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+
+#loadButton:hover {
+    background-color:  hsl(39, 100%, 50%, 1);
+}
+

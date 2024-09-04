@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <script src="logic.js" defer></script>
+    <title>ToDo</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1 id="editableTitle">ToDo:</h1>
+        </div>
+        <div id="userInput">
+            <input type="text" id="headline" placeholder="Choose a title"/>
+            <div id='headerButton'></div>
+        </div>
+    </header>
+    <main>
+        <div id="content">
+                <ul id="toDo">
+                    <li id="listInput">
+                        <input type='text' id="notes"/>
+                        <div id="addButton">+</div>
+                    </li>
+                </ul>
+        </div>
+        <div id="side">
+            <div id="saveButton">Save</div>
+            <div id="loadButton">Load</div>
+            <div id="clearButton">clear</div>
+        </div>
+    </main>
+</body>
+</html>
