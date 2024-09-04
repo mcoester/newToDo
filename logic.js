@@ -39,10 +39,12 @@ const load = () =>{
     const list = document.getElementById('toDo');
     let stringIndex = '' + index;
     savedNotes = JSON.parse(localStorage.getItem(stringIndex));
-    for(let i = 0; i < savedNotes.length; i++){
-        const listElement = document.createElement('li');
-        listElement.innerHTML = '- ' + savedNotes[i];
-        list.insertBefore(listElement, listInputElement);
+    if(list.children.length === 1){
+        for(let i = 0; i < savedNotes.length; i++){
+            const listElement = document.createElement('li');
+            listElement.innerHTML = '- ' + savedNotes[i];
+            list.insertBefore(listElement, listInputElement);
+        }
     }
 }
 
